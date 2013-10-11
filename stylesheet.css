@@ -1,0 +1,78 @@
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.bgImage img {
+  width:100%;
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.navbar {
+  z-index: 0;
+  position: relative;
+  font-family: georgia, helvetica, sans-serif;
+  font-size: 1.5em;
+  color: rgb(0,0,0);
+  text-align: center;
+  padding: 30px 5px;
+  width: auto;
+  background-image: -webkit-linear-gradient(bottom, rgb(255, 255, 255) 0%, rgb(230, 200, 200) 100%);
+  background-image: -moz-linear-gradient(bottom, rgb(255, 255, 255) 0%, rgb(230, 200, 200) 100%);
+  background-image: -o-linear-gradient(bottom, rgb(255, 255, 255) 0%, rgb(230, 200, 200) 100%);
+  background-image: linear-gradient(to top, rgb(255, 255, 255) 0%, rgb(230, 200, 200) 100%);
+}
+
+.newUpdate {
+  display: inline-block;
+  margin: 0 5%;
+  padding: 1%;
+  font-weight: bold;
+  font-size: 1.2em;
+  background-color: rgb(230, 200, 200);
+  border-radius: 3px;
+}
+
+.newPost {
+  margin: 1% 5%;
+  font-family: georgia, tahoma, sans-serif;
+  font-size: 1em;
+}
+
+
+@font-face {
+font-family: alexBrush;
+src: url('alexBrush.ttf')
+}
+
+.separator {
+  border-top: 1px solid rgb(205, 205, 205);
+  width: 90%;
+  margin: 2% 5%;
+}
+
+.footerBar {
+  clear: both;
+  width: auto;
+  height: 15%;
+  background-color: rgb(50,50,50);
+}
+
+.footerContent {
+  font-family: alexBrush, georgia, times, sans-serif;
+  font-size: 2em;
+  text-align: right;
+  color: rgb(150,150,150);
+}
+
+.footerContent img {
+  position: relative;
+  float: right;
+  height: 1em;
+  width: 1em;
+}
