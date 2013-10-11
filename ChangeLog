@@ -1,0 +1,17 @@
+Finally got this badboy on github
+
+These are the changes that have already taken place prior to git commit
+
+
+10.9.13
+Added a normalize.css file for cross browser functionality. Updated new Post CSS; separated divs into content and date [using display: inline-blocks for dynamic length (took some digging!)]; overall cleaned it up.
+
+10.5.13
+Yessss.. finally figured out how to cover the entire broswer window w/ my bg img. CSS: body {padding:0; margin:0} and background-size: cover. Learned how to throw in non web-safe fonts. Added a separator div w/ 80% width bar.
+
+10.2.13
+Added top navbar bg color; floated links right; added bg img; changed newUpdate css. [note to self: this would be really good for github... should look into that more].
+
+10.1.13
+GENESIS
+I know this is straight up ghetto but I finally put up my own website! *applause
