@@ -1,7 +1,11 @@
+
+10.15.13
+Changed #home bg img. Added navbar top of page. Added About page. Did away with updates on page; will keep those here. Site is not mobile friendly; not sure where the miss in CSS file is; needs investigating.
+
+----------------------------------------
 Finally got this badboy on github
 
 These are the changes that have already taken place prior to git commit
-
 
 10.9.13
 Added a normalize.css file for cross browser functionality. Updated new Post CSS; separated divs into content and date [using display: inline-blocks for dynamic length (took some digging!)]; overall cleaned it up.
