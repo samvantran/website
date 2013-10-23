@@ -1,3 +1,5 @@
+10.23.13
+Changed html. used <ul> and <li> for my navbar links instead of divs. Allowed me to float without the reverse order problem. Still debating if I'll keep that. Been reading about CSS style and experimenting mostly.
 
 10.15.13
 Changed #home bg img. Added navbar top of page. Added About page. Did away with updates on page; will keep those here. Site is not mobile friendly; not sure where the miss in CSS file is; needs investigating.
