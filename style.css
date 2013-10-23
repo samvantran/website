@@ -1,0 +1,56 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url('http://farm8.staticflickr.com/7331/10201612616_ec138e505a_b.jpg') no-repeat center center fixed;
+  width: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: verdana, tahoma, arial, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 70px;
+  -webkit-box-shadow:  0 8px 0 rgb(0, 0, 0);
+  -moz-box-shadow:  0 8px 0 rgb(0, 0, 0);
+  box-shadow: 0 0 8px 0 rgb(0, 0, 0);
+  background-color: rgba(20, 20, 20, 0.9);
+}
+
+ul {
+  float: right;
+  margin-top: 0;
+  padding: 20px;
+  text-align: right;
+  width: 100%;
+  min-height: 100%;
+}
+
+li {
+  display: inline;
+}
+
+ul a {
+  font-size: 1.5em;
+  color: rgb(250, 250, 220);
+  text-decoration: none;
+  padding: 0 10px;
+  border-left: thin solid rgb(220, 220, 200);
+}
+
+ul a:hover {
+  color: rgb(200, 200, 120);
+}
+
+footer {
+  width: auto;
+  height: 200px;
+}
