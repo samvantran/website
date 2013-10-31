@@ -1,5 +1,5 @@
 10.30.13
-Changed contact to blog. Going to blog about what I learned this month. Huge leaps in HTML/CSS knowledge! Added some more CSS. Learned how to space underlines from text using border-width and position. Changed a:hover color to orange. Added border-bottom line to mobile header. Still having trouble with Android capability (specifically Android). Spoke with a UI engineer today and he suggested floating the header, putting img inside the body and setting h:100% w:100%.
+Changed contact to blog. Going to blog about what I learned this month. Added some more CSS. Learned how to space underlines from text using border-width and position. Changed a:hover color to orange. Added border-bottom line to mobile header. Still having trouble with Android capability (specifically Android). Spoke with a UI engineer today and he suggested floating the header, putting img inside the body and setting h:100% w:100%.
 
 10.26.13
 Learned about media queries and was able to get site working on iphones. Very naiz...
