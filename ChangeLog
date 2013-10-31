@@ -1,13 +1,19 @@
+10.30.13
+Changed contact to blog. Going to blog about what I learned this month. Added some more CSS. Learned how to space underlines from text using border-width and position. Changed a:hover color to orange. Added border-bottom line to mobile header. Still having trouble with Android capability (specifically Android). Spoke with a UI engineer today and he suggested floating the header, putting img inside the body and setting h:100% w:100%.
+
+10.26.13
+Learned about media queries and was able to get site working on iphones. Very naiz...
+
 10.23.13
 Changed html. used <ul> and <li> for my navbar links instead of divs. Allowed me to float without the reverse order problem. Still debating if I'll keep that. Been reading about CSS style and experimenting mostly.
 
 10.15.13
 Changed #home bg img. Added navbar top of page. Added About page. Did away with updates on page; will keep those here. Site is not mobile friendly; not sure where the miss in CSS file is; needs investigating.
 
-----------------------------------------
-Finally got this badboy on github
+10.10.13
+Finally got this badboy on github! These are the changes that have already taken place prior to git commit:
 
-These are the changes that have already taken place prior to git commit
+----------------------------------------
 
 10.9.13
 Added a normalize.css file for cross browser functionality. Updated new Post CSS; separated divs into content and date [using display: inline-blocks for dynamic length (took some digging!)]; overall cleaned it up.
