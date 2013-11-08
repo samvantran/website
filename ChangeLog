@@ -1,5 +1,12 @@
+11.7.13
+Holy crap spent the majority of the evening trying to fix a faulty update I did to the site. Tried to put up multiple divs w/ images for single-pageness but that crashed all pics; had nothing up except the navbar. Blog worked though. Took forever and eventually just had to copy/paste from last 
+push on GH; still didn't work. Realized an hr later I copied html code from blog which has a diff stylesheet. Felt/Feel like such an idiot.
+
+11.1.13
+Added a blog post and a new page (blog). Threw in some quick css. Starting to tinker with single page design. 
+
 10.30.13
-Changed contact to blog. Going to blog about what I learned this month. Added some more CSS. Learned how to space underlines from text using border-width and position. Changed a:hover color to orange. Added border-bottom line to mobile header. Still having trouble with Android capability (specifically Android). Spoke with a UI engineer today and he suggested floating the header, putting img inside the body and setting h:100% w:100%.
+Changed contact to blog. Going to blog about what I learned this month. Added some more CSS. Learned how to space underlines from text using border-width and position. Changed a:hover color to orange. Added border-bottom line to mobile header. Still having trouble with Android capability (specifically HTC One). Spoke with a UI engineer today and he suggested floating the header, putting img inside the body and setting h:100% w:100%.
 
 10.26.13
 Learned about media queries and was able to get site working on iphones. Very naiz...
