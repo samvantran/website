@@ -1,3 +1,6 @@
+11.16.13
+Added a footer div with social icons at bottom. Added transform: scale(1.1, 1.1) to magnify social icons 1.1x on hover. Enabled 'single-pageness' by making #main div 1000px and href to #contact. Tried using dabblet as new sandbox (more accurate preview than cssdesk. Also has capability to update git but I'm wary of security access).
+
 11.9.13
 Fixed the mobile problem: created a div and set background: url to img; gave it absolute positioning w/ top&left:0. Success!
 

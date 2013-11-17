@@ -1,27 +1,49 @@
 <!doctype html>
 <html lang="en-US">
 <head>
-  <title>samvantran&#39;s blog</title>
-    <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <link href="normalize.css" rel="stylesheet" />
-  <link href="http://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css" />
-  <link href="blog.style.css" rel="stylesheet" type="text/css" />
+    <title>samvantran&#39;s blog</title>
+      <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="normalize.css" rel="stylesheet" />
+    <link href="http://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet" type="text/css" />
+    <link href="blog.style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+
   <div class="bg_img">
   <img src="http://farm4.staticflickr.com/3755/10303591873_98aa9f62ab_b.jpg"></img>
   </div>
-<nav>
-<ul>
-  <li><a href="http://samvantran.com">SAMVANTRAN</a></li>
-  <li><a href="#about">ABOUT</a></li>
-  <li><a href="#contact">CONTACT</a></li>
-  <li><a href="/blog">BLOG</a></li>
-</ul>
-</nav>
+
+  <nav>
+  <ul>
+    <li><a href="http://samvantran.com">SAMVANTRAN</a></li>
+    <li><a href="#about">ABOUT</a></li>
+    <li><a href="#contact">CONTACT</a></li>
+    <li><a href="/blog">BLOG</a></li>
+  </ul>
+  </nav>
 
 <div class="container">
-  
+
+  <div class="new_post">
+  <h2>Nov. 16, 2013</h2>
+    <p>Wins:
+    <ul>
+      <li>Enabled 'single-page'ness</li>
+      <li>Added social icons</li>
+      <li>Added footer</li>
+    </ul>
+    </p>
+    <p>First, I say 'single-page'ness loosely because it's hardly a single-page site but I'm glad I finally got it to work; had to make my main div 1000px in order to push down the footer that gave me trouble at first (was stuck to the top of screen right below navbar).</p>
+
+    <p>Also social icons were a huge headache; originally wanted to display them squarish with slighted angled corners but that gave me a lot of trouble because I was trying to use a sprite image too; problem is I didn't create the whole image so I didn't fully understand dimensions which led to a ton of trial & error. Even adding border: 1/2/3px would push the image around [used background-image position] so I had to make it <em>just</em> right; eventually decided on using circle icons instead. </p>
+
+    <p>Footer was fine but with so much black I kept experimenting (and flip-flopping) on whether I should make my site white instead. I would need a new bg image for it to be thematically appropriate though.</p>
+
+    <p>Also learning that I should be making much smaller changes and pushing to GH instead of doing these huge bulk changes and then something going wrong. This would probably make debugging and reverting to older versions easier.</p>
+    
+    <p>Lastly, I started playing around with Dabblet. One thing I noticed with CSSDesk is that the live preview is not very accurate. I would see it the way I wanted in cssdesk and as soon as I updated it on the server, it would be all messed up. That was super frustrating. Dabblet seems to be way more accurate.</p>
+    </div>
+    
   <div class="new_post">
   <h2>Nov. 1, 2013</h2>
     Today marks the 1 month anniversary of my website being up. Here&#39;s a snapshot of my site when I first created it:<br />
@@ -71,10 +93,8 @@
       <li>Learn more HTML5 &amp; CSS3 nuances</li>
     </ul>
   </div>
+  
 </div>
-
-<footer>
-</footer>
 
 <script>
   (function(i,s,o,g,r,a,
