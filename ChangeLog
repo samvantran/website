@@ -1,3 +1,6 @@
+11.18.13
+Fixed the social icons. Was not clickable before; now is.
+
 11.16.13
 Added a footer div with social icons at bottom. Added transform: scale(1.1, 1.1) to magnify social icons 1.1x on hover. Enabled 'single-pageness' by making #main div 1000px and href to #contact. Tried using dabblet as new sandbox (more accurate preview than cssdesk. Also has capability to update git but I'm wary of security access).
 
@@ -5,8 +8,7 @@ Added a footer div with social icons at bottom. Added transform: scale(1.1, 1.1)
 Fixed the mobile problem: created a div and set background: url to img; gave it absolute positioning w/ top&left:0. Success!
 
 11.7.13
-Holy crap spent the majority of the evening trying to fix a faulty update I did to the site. Tried to put up multiple divs w/ images for single-pageness but that crashed all pics; had nothing up except the navbar. Blog worked though. Took forever and eventually just had to copy/paste from last 
-push on GH; still didn't work. Realized an hr later I copied html code from blog which has a diff stylesheet. Felt/Feel like such an idiot.
+Holy crap spent the majority of the evening trying to fix a faulty update I did to the site. Tried to put up multiple divs w/ images for single-pageness but that crashed all pics; had nothing up except the navbar. Blog worked though. Took forever and eventually just had to copy/paste from last push on GH; still didn't work. Realized an hr later I copied html code from blog which has a diff stylesheet. Felt/Feel like such an idiot.
 
 11.1.13
 Added a blog post and a new page (blog). Threw in some quick css. Starting to tinker with single page design. 
